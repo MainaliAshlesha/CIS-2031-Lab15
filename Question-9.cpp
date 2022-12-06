@@ -6,7 +6,7 @@ using std::endl;
 using std::string;
 
 //❓❓ Question 9, uncomment the next line, then change the function declarations.
-//template<class T>
+template<class T>
 class LinkedList {
    private:
     // The internal linked-list node struct
@@ -26,7 +26,7 @@ class LinkedList {
     int length();
 
     // Get the Nth item from the list
-    string get(int index);
+    get(int index);
 
     // Returns true if the list contains needle
     bool contains(string needle);

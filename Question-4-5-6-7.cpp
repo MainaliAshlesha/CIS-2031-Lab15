@@ -38,5 +38,10 @@ int main() {
 
     //❓❓ Question 6:
     print(myNumbers);
-
+void print (vector<string>v){
+    if (v.empty())
+    cout << "[empty]";
+}else{
+    for 
+}
 }
